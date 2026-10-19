@@ -85,9 +85,9 @@ Result: `201 CREATED`
 
 Service B requested the product information from Service A and calculated the total price.
 
-**[Insert Screenshot 1 — Product creation]**
+![Product creation](1.png)
 
-**[Insert Screenshot 2 — Order creation]**
+![Order creation](2.png)
 
 **Test 2 — Catalog Service Failure**
 
@@ -109,7 +109,7 @@ Result: `503 SERVICE UNAVAILABLE`
 
 Service B handled the error and continued running.
 
-**[Insert Screenshot 3 — 503 Service Unavailable]**
+![503 Service Unavailable](3.png)
 
 **Test 3 — Getting a Saved Order**
 
@@ -134,7 +134,7 @@ Result: `200 OK`
 
 The order was returned successfully because Service B stores order information in its own memory.
 
-**[Insert Screenshot 4 — Saved order with Service A stopped]**
+![Saved order 200 OK](4.png)
 
 **Timeout**
 
